@@ -1,5 +1,5 @@
 <?php
-	require($_SERVER['DOCUMENT_ROOT'].'/config/config.php');
+	require($_SERVER['DOCUMENT_ROOT'].'kamgaro/config/config.php');
 	require(APP_PATH.'config/helper.php');
 	require(APP_PATH.'models/Model.php');
 	$db = new Model;
